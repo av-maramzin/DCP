@@ -1,3 +1,9 @@
 [submodule "code-grep"]
 	path = code-grep
 	url = https://github.com/av-maramzin/Code-Grep.git
+[submodule "benchmarks/olden"]
+	path = benchmarks/olden
+	url = https://github.com/av-maramzin/olden.git
+[submodule "benchmarks/solden"]
+	path = benchmarks/solden
+	url = https://github.com/av-maramzin/sodden.git
