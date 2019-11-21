@@ -5,61 +5,35 @@
 
 namespace abstract {
 
-template <typename T>
-class Sequence : public Collection<T> {
+template <typename ElemType>
+class Sequence : public Collection<ElemType> {
 
     public:    
         
-        /*
-         * Sequence 
-         * A collection with a defined linear order
-         *
-         */
-
         Sequence();
+        Sequence(ElemType& seed, size_t size);
 
-        // Sequence recreation constructor
-        Sequence(T* mem_ptr, Sequence::DataStructure ds_type);
-        Sequence(T array[]);
+        // primitive operations
+        void add(ElemType& elem);
+        ElemType& at(std::size_t i);
 
-        T& operator[](unsigned int i);
-
+        template<typename MapFunc>
         void map();
 
-        //
-        // Reduction
-        //
+        template<typename OutputStream>
+        void print(OutputStream& out_stream);
 
-        enum class Reduction {
-            PLUS = 0,
-            MULT
-        };
-
-        enum class DataStructure {
-            LINKED_LIST = 0,
-            BINARY_TREE
-        };
-
-    private:
-        std::vector<T> _vec;
+    protected:
+        std::vector<ElemType> _vec;
 };
 
-template <typename T>
-class MonotonicSequence : public Sequence<T> {
+template <typename ElemType>
+class MonotonicSequence : public Sequence<ElemType> {
 
     public:
         
-        MonotonicSequence(T& seed, lambda f, size_t size)
-            : Sequence()
-        {
-            _vec.push_back(seed);
-            for (size_t i=1; i<size; i++) {
-                _vec[i] = f(vec[i-1]);
-            }                
-        }
-
-    private:
-        std::vector<T> _vec;
+        template <typename TransFunc>
+        MonotonicSequence(ElemType& seed, std::size_t size, TransFunc trans_func);
 };
 
 }
