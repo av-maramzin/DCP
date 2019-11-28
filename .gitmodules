@@ -7,3 +7,6 @@
 [submodule "benchmarks/solden"]
 	path = benchmarks/solden
 	url = https://github.com/av-maramzin/sodden.git
+[submodule "playground/cmake/llvm-ir-cmake-utils"]
+	path = playground/cmake/llvm-ir-cmake-utils
+	url = https://github.com/av-maramzin/llvm-ir-cmake-utils.git

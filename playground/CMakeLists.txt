@@ -2,7 +2,14 @@ cmake_minimum_required(VERSION 3.2)
 
 project(playground)
 
-add_executable(array_abstract array/abstract/array.cpp)
-add_executable(array_original array/original/array.c)
+message(${CMAKE_CURRENT_SOURCE_DIR})
 
-target_link_libraries(array_abstract abstract)
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/llvm-ir-cmake-utils/cmake")
+
+message(${CMAKE_MODULE_PATH})
+
+include(LLVMIRUtil)
+
+add_subdirectory(array)
+#add_subdirectory(linked_list)
