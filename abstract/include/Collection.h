@@ -11,9 +11,9 @@ class Collection {
         Collection() {}
         virtual ~Collection() {}
 
-        virtual void add(ElemType& elem) = 0;
+        virtual void add(ElemType elem) = 0;
 };
 
-} // namespace abstract {
+} // namespace abstract
 
 #endif // #ifndef COLLECTION_H
