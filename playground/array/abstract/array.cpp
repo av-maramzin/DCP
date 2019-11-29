@@ -1,4 +1,10 @@
+
+#include <iostream>
+
 #include "Sequence.h"
+
+using namespace abstract;
+using namespace std;
 
 const int n = 1000000;
 
@@ -8,7 +14,7 @@ int main() {
     // int array[n];
     Sequence<int> s(n); 
 
-    // array initialization as a monotonic increasing sequence  
+    // array initialization as a monotonic increasing sequence
     // for (int i=0; i<n; i++) {
     //     array[i] = i;
     // }
@@ -24,7 +30,7 @@ int main() {
     // for (int i=0; i<n; i++) {
     //     printf("%d", array[i]);
     // }
-    s.print();
+    s.print(cout);
 
     return 0;
 }
