@@ -11,10 +11,7 @@ message(${PROJECT_DIR})
 message(${ABSTRACT_LIBRARY_DIR})
 message(${PLAYGROUND_DIR})
 
-
 list(APPEND INCLUDE_DIRS ${ABSTRACT_LIBRARY_DIR}/include)
-
-add_compile_options("-std=c++0x")
 
 include_directories(${INCLUDE_DIRS})
 
