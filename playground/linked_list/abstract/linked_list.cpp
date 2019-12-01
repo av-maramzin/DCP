@@ -1,3 +1,6 @@
+
+#include <cstdio>
+
 #include "Sequence.h"
 
 const int n = 1000000;
@@ -26,7 +29,7 @@ int main()
     tmp = head;
     for (size_t i=0; i<n; i++) {
         reduction += tmp->data;
-        tmp->next;
+        tmp = tmp->next;
     }
 
     printf("%lld",reduction);

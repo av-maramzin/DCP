@@ -1,18 +1,29 @@
-cmake_minimum_required(VERSION 3.2)
 
-project(playground)
+set(ABSTRACT_IMPL_DIR abstract)
+set(ORIGINAL_IMPL_DIR original)
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../")
+set(ABSTRACT_SOURCES ${ABSTRACT_IMPL_DIR}/linked_list.cpp)
+set(ORIGINAL_SOURCES ${ORIGINAL_IMPL_DIR}/linked_list.c)
 
-include(LLVMIRUtil)
+add_executable(linked_list_abstract ${ABSTRACT_SOURCES})
+add_executable(linked_list_original ${ORIGINAL_SOURCES})
 
-add_subdirectory(array)
-add_subdirectory(linked-list)
+target_compile_options(linked_list_abstract PUBLIC "-std=c++0x")
 
+#target_link_libraries(linked_list_abstract abstract)
 
+# this property is required by LLVM IR parasitic targets
+set_target_properties(linked_list_abstract PROPERTIES LINKER_LANGUAGE CXX)
+set_target_properties(linked_list_original PROPERTIES LINKER_LANGUAGE C)
 
-add_executable(array_abstract array/abstract/array.cpp)
-add_executable(array_original array/original/array.c)
+llvmir_attach_bc_target(linked_list_abstract_bc linked_list_abstract)
+add_dependencies(linked_list_abstract_bc linked_list_abstract)
 
-target_link_libraries(array_abstract abstract)
+llvmir_attach_bc_target(linked_list_original_bc linked_list_original)
+add_dependencies(linked_list_original_bc linked_list_original)
 
+llvmir_attach_disassemble_target(linked_list_abstract_ll linked_list_abstract_bc)
+add_dependencies(linked_list_abstract_ll linked_list_abstract_bc)
+
+llvmir_attach_disassemble_target(linked_list_original_ll linked_list_original_bc)
+add_dependencies(linked_list_original_ll linked_list_original_bc)
