@@ -7,7 +7,25 @@
 
 using namespace clang::tooling;
 using namespace llvm;
-    
+
+
+#include "clang/ASTMatchers/ASTMatchers.h"
+#include "clang/ASTMatchers/ASTMatchFinder.h"
+
+using namespace clang;
+using namespace clang::ast_matchers;
+
+StatementMatcher LoopMatcher =
+    forStmt(hasLoopInit(declStmt(hasSingleDecl(varDecl(hasInitializer(integerLiteral(equals(0)))))))).bind("forLoop");
+
+class LoopPrinter : public MatchFinder::MatchCallback {
+    public :
+        virtual void run(const MatchFinder::MatchResult &Result) {
+            if (const ForStmt *FS = Result.Nodes.getNodeAs<clang::ForStmt>("forLoop"))
+                FS->dump();
+        }
+};
+
 // Apply a custom category to all command-line options so that they are the
 // only ones displayed.
 static llvm::cl::OptionCategory MyToolCategory("my-tool options");
@@ -24,5 +42,10 @@ int main(int argc, const char **argv) {
     CommonOptionsParser OptionsParser(argc, argv, MyToolCategory);
     ClangTool Tool(OptionsParser.getCompilations(), OptionsParser.getSourcePathList());
 
-    return Tool.run(newFrontendActionFactory<clang::SyntaxOnlyAction>().get());
+    LoopPrinter Printer;
+    MatchFinder Finder;
+    Finder.addMatcher(LoopMatcher, &Printer);
+
+//    return Tool.run(newFrontendActionFactory<clang::SyntaxOnlyAction>().get());
+    return Tool.run(newFrontendActionFactory(&Finder).get());
 }
