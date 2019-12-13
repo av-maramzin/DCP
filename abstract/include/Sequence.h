@@ -52,4 +52,4 @@ class MonotonicSequence : public Sequence<ElemType> {
 
 }
 
-#endif // #ifndef COLLECTION_H
+#endif // #ifndef SEQUENCE_H
