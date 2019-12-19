@@ -10,3 +10,6 @@
 [submodule "playground/cmake/llvm-ir-cmake-utils"]
 	path = playground/cmake/llvm-ir-cmake-utils
 	url = https://github.com/av-maramzin/llvm-ir-cmake-utils.git
+[submodule "abstract"]
+	path = abstract
+	url = https://github.com/av-maramzin/Abstract-DT.git
