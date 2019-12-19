@@ -4,8 +4,8 @@
 [submodule "benchmarks/olden"]
 	path = benchmarks/olden
 	url = https://github.com/av-maramzin/DCP-olden.git
-[submodule "benchmarks/solden"]
-	path = benchmarks/solden
+[submodule "benchmarks/sodden"]
+	path = benchmarks/sodden
 	url = https://github.com/av-maramzin/DCP-sodden.git
 [submodule "playground/cmake/llvm-ir-cmake-utils"]
 	path = playground/cmake/llvm-ir-cmake-utils
