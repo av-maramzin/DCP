@@ -18,13 +18,13 @@ STATUS_MSG=""
 # stop and redirect the user to the right directory otherwise; 
 STATUS_MSG="Checking script launch directory"
 echo $STATUS_MSG
-declare -a PROJECT_ROOT_SIGNS=("CMakeLists.txt" # PPar tool buildsystem generation CMake rules 
+declare -a PROJECT_ROOT_SIGNS=("CMakeLists.txt" # DCP tool buildsystem generation CMake rules
                                "README.md" # GitHub's README file 
                                ".gitmodules") # Git repository stuff
 ERROR_MSG_BASE="Error: the script cannot be launched from this directory! Use the root directory of the project instead."
 for file in ${PROJECT_ROOT_SIGNS[@]}; do
     if [ ! -f ${file} ]; then
-        ERROR_MSG="${ERROR_MSG_BASE} Could not find a file named ${file}, which is supposed to be present in the root directory."
+        ERROR_MSG="${ERROR_MSG_BASE} Could not find a file named ${file}, which is supposed to be in the project root directory."
         error_exit "${ERROR_MSG}"
     fi
 done
@@ -55,7 +55,6 @@ DOCUMENTS_DIR="${PROJECT_ROOT_DIR}/doc"
 STATUS_MSG="Checking repository integrity"
 echo $STATUS_MSG
 declare -a PROJECT_SOURCE_DIRS=("${BENCHMARKS_DIR}"
-                                "${BENCHMARKS_DIR}"
                                 "${OLDEN_BENCHMARKS_DIR}"
                                 "${OLDEN_HARNESS_DIR}"
                                 "${PLAYGROUND_DIR}"
@@ -67,7 +66,7 @@ declare -a PROJECT_SOURCE_DIRS=("${BENCHMARKS_DIR}"
 ERROR_MSG_BASE="Error: the script cannot be launched from an incomplete repository!"
 for dir in ${PROJECT_SOURCE_DIRS[@]}; do
     if [ ! -d ${dir} ]; then
-        ERROR_MSG="${ERROR_MSG_BASE} Necessary ${dir} PPar project directory is missing!"
+        ERROR_MSG="${ERROR_MSG_BASE} Necessary ${dir} DCP project directory is missing!"
         error_exit "${ERROR_MSG}"
     fi
 done

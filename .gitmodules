@@ -3,10 +3,10 @@
 	url = https://github.com/av-maramzin/Code-Grep.git
 [submodule "benchmarks/olden"]
 	path = benchmarks/olden
-	url = https://github.com/av-maramzin/olden.git
+	url = https://github.com/av-maramzin/DCP-olden.git
 [submodule "benchmarks/solden"]
 	path = benchmarks/solden
-	url = https://github.com/av-maramzin/sodden.git
+	url = https://github.com/av-maramzin/DCP-sodden.git
 [submodule "playground/cmake/llvm-ir-cmake-utils"]
 	path = playground/cmake/llvm-ir-cmake-utils
 	url = https://github.com/av-maramzin/llvm-ir-cmake-utils.git

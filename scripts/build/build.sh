@@ -19,14 +19,17 @@ C_FLAGS=""
 
 (
 INSTALL_PREFIX=${2:-../install/}
-#C_FLAGS="-g -Wall -O2"
-C_FLAGS="-Wall"
+C_FLAGS="-g -Wall -O3"
+#C_FLAGS="-Wall"
 LINKER_FLAGS="-Wl,-L$(llvm-config --libdir) -Wl,-rpath=$(llvm-config --libdir)"
 #LINKER_FLAGS="${LINKER_FLAGS} -lc++ -lc++abi" 
 
+BMK_CONFIG_FILE="${OLDEN_HARNESS_DIR}/config/suite_all.txt"
+BMK_CLASS="S"
+
 cd ${PROJECT_BUILD_DIR}
 echo "=> CMake is generating playground build system"
-CC=clang CXX=clang++ cmake \
+CC=gcc CXX=g++ cmake \
     -G "Unix Makefiles" \
     -DCMAKE_BUILD_TYPE=Debug \
     -DCMAKE_C_FLAGS="${C_FLAGS}" \
@@ -38,6 +41,8 @@ CC=clang CXX=clang++ cmake \
     -DCMAKE_MODULE_LINKER_FLAGS="${LINKER_FLAGS}" \
     -DCMAKE_INSTALL_PREFIX="${INSTALL_PREFIX}" \
     -DHARNESS_USE_LLVM=On \
+    -DHARNESS_BMK_CONFIG_FILE=${BMK_CONFIG_FILE} \
+    -DBMK_CLASS=${BMK_CLASS} \
     "${PROJECT_ROOT_DIR}"
 echo "=> Building playground"
 cmake --build .
