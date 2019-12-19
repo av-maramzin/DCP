@@ -38,7 +38,7 @@ PROJECT_ROOT_DIR="${PWD}" # project root directory
 # benchmarks
 BENCHMARKS_DIR="${PROJECT_ROOT_DIR}/benchmarks"
 OLDEN_BENCHMARKS_DIR="${BENCHMARKS_DIR}/olden"
-OLDEN_HARNESS_DIR="${BENCHMARKS_DIR}/solden"
+OLDEN_HARNESS_DIR="${BENCHMARKS_DIR}/sodden"
 
 # toy examples
 PLAYGROUND_DIR="${PROJECT_ROOT_DIR}/playground"
