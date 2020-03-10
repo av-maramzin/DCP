@@ -19,8 +19,8 @@ C_FLAGS=""
 
 (
 INSTALL_PREFIX=${2:-../install/}
-C_FLAGS="-Wall"
-CXX_FLAGS="-Wall -fopenmp -std=c++11"
+C_FLAGS="-Wall -g"
+CXX_FLAGS="-Wall -g -fopenmp -std=c++11"
 #C_FLAGS="-Wall"
 LINKER_FLAGS="-Wl,-L$(llvm-config --libdir) -Wl,-rpath=$(llvm-config --libdir)"
 #LINKER_FLAGS="${LINKER_FLAGS} -lc++ -lc++abi" 
@@ -35,7 +35,7 @@ echo "=> CMake is generating playground build system"
 
 CC=gcc CXX=g++ cmake \
     -G "Unix Makefiles" \
-    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_BUILD_TYPE=Debug \
     -DCMAKE_C_FLAGS="${C_FLAGS}" \
     -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON \
     -DCMAKE_CXX_FLAGS="${CXX_FLAGS}" \
