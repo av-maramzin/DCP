@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/args.c
+cm/cmmd.h
+-
+fcntl.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/node.c
+cm/cmmd.h
+-
+future-cell.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/future-cell.h
+mem-ref.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/mem-ref.h
+stdlib.h
+-
+tree.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/tree.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/par-alloc.c
+mem-ref.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/mem-ref.h
+future-cell.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/future-cell.h
+tree.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/tree.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/original/src/tree.h
+stdio.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/gcc -Wall -g -g  -rdynamic CMakeFiles/tsp.dir/src/args.c.o CMakeFiles/tsp.dir/src/build.c.o CMakeFiles/tsp.dir/src/main.c.o CMakeFiles/tsp.dir/src/tsp.c.o  -o tsp -lm 

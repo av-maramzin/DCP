@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/args.c
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/hash.c
+stdlib.h
+-
+hash.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/hash.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/hash.h
+stdio.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/stdio.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/main.c
+mst.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/mst.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/makegraph.c
+mst.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/mst.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/mst.h
+stdlib.h
+-
+hash.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/hash.h
+

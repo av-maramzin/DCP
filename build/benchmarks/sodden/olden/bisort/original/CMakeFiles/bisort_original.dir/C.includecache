@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/bisort/original/src/args.c
+stdlib.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/bisort/original/src/bitonic.c
+node.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/bisort/original/src/node.h
+proc.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/bisort/original/src/proc.h
+stdio.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/bisort/original/src/node.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/bisort/original/src/proc.h
+

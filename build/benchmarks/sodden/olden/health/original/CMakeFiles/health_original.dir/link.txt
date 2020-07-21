@@ -1,0 +1,1 @@
+/usr/bin/gcc -Wall -g -g  -rdynamic CMakeFiles/health_original.dir/src/args.c.o CMakeFiles/health_original.dir/src/health.c.o CMakeFiles/health_original.dir/src/list.c.o CMakeFiles/health_original.dir/src/poisson.c.o  -o health_original -lm 

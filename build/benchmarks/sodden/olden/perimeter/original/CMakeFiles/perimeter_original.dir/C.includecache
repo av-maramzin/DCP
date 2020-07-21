@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/args.c
+cm/cmmd.h
+-
+fcntl.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/main.c
+perimeter.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/perimeter.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/maketree.c
+perimeter.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/perimeter.h
+stdlib.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/perimeter.h
+cm/cmmd.h
+-
+future-cell.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/future-cell.h
+mem-ref.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/mem-ref.h
+

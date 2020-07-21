@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/voronoi/original/src/args.c
+stdlib.h
+-
+stdio.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/voronoi/original/src/defines.h
+math.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/voronoi/original/src/newvor.c
+stdio.h
+-
+stdlib.h
+-
+defines.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/voronoi/original/src/defines.h
+malloc.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/voronoi/original/src/output.c
+defines.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/voronoi/original/src/defines.h
+stdio.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/voronoi/original/src/vector.c
+defines.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/voronoi/original/src/defines.h
+

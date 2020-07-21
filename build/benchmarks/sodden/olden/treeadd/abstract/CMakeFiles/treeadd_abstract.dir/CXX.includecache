@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../abstract/include/Fractal_dynamic.h
+vector
+-
+memory
+-
+iostream
+-
+omp.h
+-
+Fractal_dynamic.tpp
+../abstract/include/Fractal_dynamic.tpp
+
+../abstract/include/Fractal_dynamic.tpp
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/args.cpp
+cstdlib
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/node.cpp
+stdlib.h
+-
+tree.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/tree.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/tree.h
+stdio.h
+-
+Fractal_dynamic.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/Fractal_dynamic.h
+

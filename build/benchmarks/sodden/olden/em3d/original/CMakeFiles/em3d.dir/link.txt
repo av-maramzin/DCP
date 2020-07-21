@@ -1,0 +1,1 @@
+/usr/bin/gcc -Wall -g -g  -rdynamic CMakeFiles/em3d.dir/src/args.c.o CMakeFiles/em3d.dir/src/em3d.c.o CMakeFiles/em3d.dir/src/main.c.o CMakeFiles/em3d.dir/src/make_graph.c.o CMakeFiles/em3d.dir/src/util.c.o  -o em3d -lm 

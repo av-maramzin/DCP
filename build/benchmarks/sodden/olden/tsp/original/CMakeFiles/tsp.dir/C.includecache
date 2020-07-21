@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/args.c
+fcntl.h
+-
+tsp.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/tsp.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/build.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+tsp.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/tsp.h
+future-cell.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/future-cell.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/main.c
+tsp.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/tsp.h
+stdio.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/tsp.c
+tsp.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/tsp.h
+future-cell.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/future-cell.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/tsp/original/src/tsp.h
+

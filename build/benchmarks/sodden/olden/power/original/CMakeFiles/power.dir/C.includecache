@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/build.c
+power.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/power.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/compute.c
+power.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/power.h
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/main.c
+power.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/power.h
+stdio.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/power.h
+math.h
+-
+stdio.h
+-
+

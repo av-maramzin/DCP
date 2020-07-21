@@ -1,0 +1,1 @@
+/usr/bin/gcc -Wall -g -g  -rdynamic CMakeFiles/health_abstract.dir/src/args.cpp.o CMakeFiles/health_abstract.dir/src/health.cpp.o CMakeFiles/health_abstract.dir/src/list.cpp.o CMakeFiles/health_abstract.dir/src/poisson.cpp.o  -o health_abstract -lm -lstdc++ -lm -lgomp -lpthread 

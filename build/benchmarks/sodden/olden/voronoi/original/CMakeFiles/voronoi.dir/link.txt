@@ -1,0 +1,1 @@
+/usr/bin/gcc -Wall -g -g  -rdynamic CMakeFiles/voronoi.dir/src/args.c.o CMakeFiles/voronoi.dir/src/newvor.c.o CMakeFiles/voronoi.dir/src/output.c.o CMakeFiles/voronoi.dir/src/vector.c.o  -o voronoi -lm 
