@@ -610,16 +610,22 @@ clean: benchmarks/sodden/olden/mst/original/CMakeFiles/mst.dir/clean
 
 # Convenience name for "all" pass in the directory.
 benchmarks/sodden/olden/perimeter/all: benchmarks/sodden/olden/perimeter/original/all
+benchmarks/sodden/olden/perimeter/all: benchmarks/sodden/olden/perimeter/abstract/all
+benchmarks/sodden/olden/perimeter/all: benchmarks/sodden/olden/perimeter/abstract_old/all
 
 .PHONY : benchmarks/sodden/olden/perimeter/all
 
 # Convenience name for "clean" pass in the directory.
 benchmarks/sodden/olden/perimeter/clean: benchmarks/sodden/olden/perimeter/original/clean
+benchmarks/sodden/olden/perimeter/clean: benchmarks/sodden/olden/perimeter/abstract/clean
+benchmarks/sodden/olden/perimeter/clean: benchmarks/sodden/olden/perimeter/abstract_old/clean
 
 .PHONY : benchmarks/sodden/olden/perimeter/clean
 
 # Convenience name for "preinstall" pass in the directory.
 benchmarks/sodden/olden/perimeter/preinstall: benchmarks/sodden/olden/perimeter/original/preinstall
+benchmarks/sodden/olden/perimeter/preinstall: benchmarks/sodden/olden/perimeter/abstract/preinstall
+benchmarks/sodden/olden/perimeter/preinstall: benchmarks/sodden/olden/perimeter/abstract_old/preinstall
 
 .PHONY : benchmarks/sodden/olden/perimeter/preinstall
 
@@ -648,7 +654,7 @@ benchmarks/sodden/olden/perimeter/original/preinstall:
 benchmarks/sodden/olden/perimeter/original/CMakeFiles/perimeter_original.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/perimeter/original/CMakeFiles/perimeter_original.dir/build.make benchmarks/sodden/olden/perimeter/original/CMakeFiles/perimeter_original.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/perimeter/original/CMakeFiles/perimeter_original.dir/build.make benchmarks/sodden/olden/perimeter/original/CMakeFiles/perimeter_original.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=31,32,33,34 "Built target perimeter_original"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=39,40,41,42 "Built target perimeter_original"
 .PHONY : benchmarks/sodden/olden/perimeter/original/CMakeFiles/perimeter_original.dir/all
 
 # Include target in all.
@@ -675,6 +681,116 @@ benchmarks/sodden/olden/perimeter/original/CMakeFiles/perimeter_original.dir/cle
 
 # clean rule for target.
 clean: benchmarks/sodden/olden/perimeter/original/CMakeFiles/perimeter_original.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory benchmarks/sodden/olden/perimeter/abstract
+
+# Convenience name for "all" pass in the directory.
+benchmarks/sodden/olden/perimeter/abstract/all: benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/all
+
+.PHONY : benchmarks/sodden/olden/perimeter/abstract/all
+
+# Convenience name for "clean" pass in the directory.
+benchmarks/sodden/olden/perimeter/abstract/clean: benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/clean
+
+.PHONY : benchmarks/sodden/olden/perimeter/abstract/clean
+
+# Convenience name for "preinstall" pass in the directory.
+benchmarks/sodden/olden/perimeter/abstract/preinstall:
+
+.PHONY : benchmarks/sodden/olden/perimeter/abstract/preinstall
+
+#=============================================================================
+# Target rules for target benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir
+
+# All Build rule for target.
+benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/all:
+	$(MAKE) -f benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/build.make benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/depend
+	$(MAKE) -f benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/build.make benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=31,32,33,34 "Built target perimeter_abstract"
+.PHONY : benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/all
+
+# Include target in all.
+all: benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 0
+.PHONY : benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/rule
+
+# Convenience name for target.
+perimeter_abstract: benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/rule
+
+.PHONY : perimeter_abstract
+
+# clean rule for target.
+benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/clean:
+	$(MAKE) -f benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/build.make benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/clean
+.PHONY : benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/clean
+
+# clean rule for target.
+clean: benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory benchmarks/sodden/olden/perimeter/abstract_old
+
+# Convenience name for "all" pass in the directory.
+benchmarks/sodden/olden/perimeter/abstract_old/all: benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/all
+
+.PHONY : benchmarks/sodden/olden/perimeter/abstract_old/all
+
+# Convenience name for "clean" pass in the directory.
+benchmarks/sodden/olden/perimeter/abstract_old/clean: benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/clean
+
+.PHONY : benchmarks/sodden/olden/perimeter/abstract_old/clean
+
+# Convenience name for "preinstall" pass in the directory.
+benchmarks/sodden/olden/perimeter/abstract_old/preinstall:
+
+.PHONY : benchmarks/sodden/olden/perimeter/abstract_old/preinstall
+
+#=============================================================================
+# Target rules for target benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir
+
+# All Build rule for target.
+benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/all:
+	$(MAKE) -f benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/build.make benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/depend
+	$(MAKE) -f benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/build.make benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=35,36,37,38 "Built target perimeter_abstract_old"
+.PHONY : benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/all
+
+# Include target in all.
+all: benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 0
+.PHONY : benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/rule
+
+# Convenience name for target.
+perimeter_abstract_old: benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/rule
+
+.PHONY : perimeter_abstract_old
+
+# clean rule for target.
+benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/clean:
+	$(MAKE) -f benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/build.make benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/clean
+.PHONY : benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/clean
+
+# clean rule for target.
+clean: benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/clean
 
 .PHONY : clean
 
@@ -724,7 +840,7 @@ benchmarks/sodden/olden/power/original/preinstall:
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=35,36,37,38 "Built target power"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=43,44,45,46 "Built target power"
 .PHONY : benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/all
 
 # Include target in all.
@@ -779,7 +895,7 @@ benchmarks/sodden/olden/power/abstract/preinstall:
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=39,40,41,42 "Built target power_abstract"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=47,48,49,50 "Built target power_abstract"
 .PHONY : benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/all
 
 # Include target in all.
@@ -855,7 +971,7 @@ benchmarks/sodden/olden/treeadd/original/preinstall:
 benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/build.make benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/build.make benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=43,44,45,46 "Built target treeadd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=51,52,53,54 "Built target treeadd"
 .PHONY : benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/all
 
 # Include target in all.
@@ -910,7 +1026,7 @@ benchmarks/sodden/olden/treeadd/abstract/preinstall:
 benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/build.make benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/build.make benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=47,48,49 "Built target treeadd_abstract"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=55,56,57 "Built target treeadd_abstract"
 .PHONY : benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/all
 
 # Include target in all.
@@ -983,7 +1099,7 @@ benchmarks/sodden/olden/tsp/original/preinstall:
 benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/build.make benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/build.make benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=50,51,52,53,54 "Built target tsp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=58,59,60,61,62 "Built target tsp"
 .PHONY : benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/all
 
 # Include target in all.
@@ -1056,7 +1172,7 @@ benchmarks/sodden/olden/voronoi/original/preinstall:
 benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/build.make benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/build.make benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=55,56,57,58,59 "Built target voronoi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=63,64,65,66,67 "Built target voronoi"
 .PHONY : benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/all
 
 # Include target in all.

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../abstract/include/Fractal_dynamic.h
+vector
+-
+memory
+-
+iostream
+-
+omp.h
+-
+Fractal_dynamic.tpp
+../abstract/include/Fractal_dynamic.tpp
+
+../abstract/include/Fractal_dynamic.tpp
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/args.cpp
+cstdlib
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/main.cpp
+perimeter.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/perimeter.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/maketree.cpp
+perimeter.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/perimeter.h
+stdlib.h
+-
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/perimeter.h
+Fractal_dynamic.h
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/Fractal_dynamic.h
+

@@ -264,6 +264,32 @@ perimeter_original/fast:
 .PHONY : perimeter_original/fast
 
 #=============================================================================
+# Target rules for targets named perimeter_abstract
+
+# Build rule for target.
+perimeter_abstract: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 perimeter_abstract
+.PHONY : perimeter_abstract
+
+# fast build rule for target.
+perimeter_abstract/fast:
+	$(MAKE) -f benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/build.make benchmarks/sodden/olden/perimeter/abstract/CMakeFiles/perimeter_abstract.dir/build
+.PHONY : perimeter_abstract/fast
+
+#=============================================================================
+# Target rules for targets named perimeter_abstract_old
+
+# Build rule for target.
+perimeter_abstract_old: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 perimeter_abstract_old
+.PHONY : perimeter_abstract_old
+
+# fast build rule for target.
+perimeter_abstract_old/fast:
+	$(MAKE) -f benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/build.make benchmarks/sodden/olden/perimeter/abstract_old/CMakeFiles/perimeter_abstract_old.dir/build
+.PHONY : perimeter_abstract_old/fast
+
+#=============================================================================
 # Target rules for targets named power
 
 # Build rule for target.
@@ -361,6 +387,8 @@ help:
 	@echo "... health_abstract"
 	@echo "... mst"
 	@echo "... perimeter_original"
+	@echo "... perimeter_abstract"
+	@echo "... perimeter_abstract_old"
 	@echo "... power"
 	@echo "... power_abstract"
 	@echo "... treeadd"

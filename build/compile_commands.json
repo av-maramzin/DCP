@@ -130,6 +130,36 @@
   "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/original/src/maketree.c"
 },
 {
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/perimeter_abstract.dir/src/main.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/main.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/main.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/perimeter_abstract.dir/src/args.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/args.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/args.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/perimeter_abstract.dir/src/maketree.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/maketree.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/maketree.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/perimeter_abstract_old.dir/src/main.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src/main.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src/main.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/perimeter_abstract_old.dir/src/args.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src/args.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src/args.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/perimeter/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/perimeter_abstract_old.dir/src/maketree.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src/maketree.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract_old/src/maketree.cpp"
+},
+{
   "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original",
   "command": "/usr/bin/gcc -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src  -Wall -g -g   -o CMakeFiles/power.dir/src/build.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/build.c",
   "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/build.c"
