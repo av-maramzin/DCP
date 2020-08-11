@@ -95,6 +95,26 @@
   "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract/src/poisson.cpp"
 },
 {
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/health/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/health/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/health_abstract_old.dir/src/args.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src/args.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src/args.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/health/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/health/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/health_abstract_old.dir/src/health.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src/health.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src/health.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/health/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/health/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/health_abstract_old.dir/src/list.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src/list.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src/list.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/health/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/health/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/health_abstract_old.dir/src/poisson.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src/poisson.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract_old/src/poisson.cpp"
+},
+{
   "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/mst/original",
   "command": "/usr/bin/gcc -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/mst/original -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src  -Wall -g -g   -o CMakeFiles/mst.dir/src/args.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/args.c",
   "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/mst/original/src/args.c"
@@ -213,6 +233,21 @@
   "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract",
   "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/treeadd_abstract.dir/src/args.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/args.cpp",
   "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/args.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/treeadd_abstract_old.dir/src/node.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src/node.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src/node.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/treeadd_abstract_old.dir/src/par-alloc.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src/par-alloc.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src/par-alloc.cpp"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract_old",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract_old -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src  -Wall -g -fopenmp -std=c++11 -g   -o CMakeFiles/treeadd_abstract_old.dir/src/args.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src/args.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract_old/src/args.cpp"
 },
 {
   "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/tsp/original",

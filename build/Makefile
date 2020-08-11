@@ -238,6 +238,19 @@ health_abstract/fast:
 .PHONY : health_abstract/fast
 
 #=============================================================================
+# Target rules for targets named health_abstract_old
+
+# Build rule for target.
+health_abstract_old: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 health_abstract_old
+.PHONY : health_abstract_old
+
+# fast build rule for target.
+health_abstract_old/fast:
+	$(MAKE) -f benchmarks/sodden/olden/health/abstract_old/CMakeFiles/health_abstract_old.dir/build.make benchmarks/sodden/olden/health/abstract_old/CMakeFiles/health_abstract_old.dir/build
+.PHONY : health_abstract_old/fast
+
+#=============================================================================
 # Target rules for targets named mst
 
 # Build rule for target.
@@ -342,6 +355,19 @@ treeadd_abstract/fast:
 .PHONY : treeadd_abstract/fast
 
 #=============================================================================
+# Target rules for targets named treeadd_abstract_old
+
+# Build rule for target.
+treeadd_abstract_old: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 treeadd_abstract_old
+.PHONY : treeadd_abstract_old
+
+# fast build rule for target.
+treeadd_abstract_old/fast:
+	$(MAKE) -f benchmarks/sodden/olden/treeadd/abstract_old/CMakeFiles/treeadd_abstract_old.dir/build.make benchmarks/sodden/olden/treeadd/abstract_old/CMakeFiles/treeadd_abstract_old.dir/build
+.PHONY : treeadd_abstract_old/fast
+
+#=============================================================================
 # Target rules for targets named tsp
 
 # Build rule for target.
@@ -385,6 +411,7 @@ help:
 	@echo "... em3d"
 	@echo "... health_original"
 	@echo "... health_abstract"
+	@echo "... health_abstract_old"
 	@echo "... mst"
 	@echo "... perimeter_original"
 	@echo "... perimeter_abstract"
@@ -393,6 +420,7 @@ help:
 	@echo "... power_abstract"
 	@echo "... treeadd"
 	@echo "... treeadd_abstract"
+	@echo "... treeadd_abstract_old"
 	@echo "... tsp"
 	@echo "... voronoi"
 .PHONY : help

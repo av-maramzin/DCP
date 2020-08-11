@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/original/cmake_install.cmake")
   include("/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract/cmake_install.cmake")
+  include("/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/treeadd/abstract_old/cmake_install.cmake")
 
 endif()
 

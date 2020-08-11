@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -g -fopenmp -std=c++11 -g  -rdynamic CMakeFiles/health_abstract_old.dir/src/args.cpp.o CMakeFiles/health_abstract_old.dir/src/health.cpp.o CMakeFiles/health_abstract_old.dir/src/list.cpp.o CMakeFiles/health_abstract_old.dir/src/poisson.cpp.o  -o health_abstract_old -lm 
