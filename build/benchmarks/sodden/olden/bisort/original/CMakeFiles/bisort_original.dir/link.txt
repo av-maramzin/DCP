@@ -1,1 +1,1 @@
-/usr/bin/gcc -Wall -g -g  -rdynamic CMakeFiles/bisort_original.dir/src/args.c.o CMakeFiles/bisort_original.dir/src/bitonic.c.o  -o bisort_original -lm 
+/usr/bin/gcc -Wall -pg -g -g  -rdynamic CMakeFiles/bisort_original.dir/src/args.c.o CMakeFiles/bisort_original.dir/src/bitonic.c.o  -o bisort_original -lm 

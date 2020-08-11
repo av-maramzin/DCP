@@ -1,1 +1,1 @@
-/usr/bin/gcc -Wall -g -g  -rdynamic CMakeFiles/perimeter_original.dir/src/args.c.o CMakeFiles/perimeter_original.dir/src/main.c.o CMakeFiles/perimeter_original.dir/src/maketree.c.o  -o perimeter_original -lm 
+/usr/bin/gcc -Wall -pg -g -g  -rdynamic CMakeFiles/perimeter_original.dir/src/args.c.o CMakeFiles/perimeter_original.dir/src/main.c.o CMakeFiles/perimeter_original.dir/src/maketree.c.o  -o perimeter_original -lm 
