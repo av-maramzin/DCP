@@ -25,6 +25,10 @@ stdio.h
 -
 stdlib.h
 -
+string
+-
+iostream
+-
 health.h
 /home/aleksandr/Work/DCP/benchmarks/sodden/olden/health/abstract/src/health.h
 

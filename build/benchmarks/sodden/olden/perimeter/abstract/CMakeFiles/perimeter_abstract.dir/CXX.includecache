@@ -23,6 +23,10 @@ Fractal_dynamic.tpp
 /home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/args.cpp
 cstdlib
 -
+string
+-
+iostream
+-
 
 /home/aleksandr/Work/DCP/benchmarks/sodden/olden/perimeter/abstract/src/main.cpp
 perimeter.h
