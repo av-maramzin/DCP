@@ -23,10 +23,6 @@ Fractal_dynamic.tpp
 /home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/args.cpp
 cstdlib
 -
-string
--
-iostream
--
 
 /home/aleksandr/Work/DCP/benchmarks/sodden/olden/treeadd/abstract/src/node.cpp
 stdlib.h
