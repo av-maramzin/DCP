@@ -1,1 +1,1 @@
-/usr/bin/g++  -Wall -pg -g -fopenmp -std=c++11 -g  -rdynamic CMakeFiles/treeadd.dir/src/args.c.o CMakeFiles/treeadd.dir/src/node.c.o CMakeFiles/treeadd.dir/src/par-alloc.c.o  -o treeadd -lm 
+/usr/bin/g++  -Wall -fopenmp -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/treeadd.dir/src/args.c.o CMakeFiles/treeadd.dir/src/node.c.o CMakeFiles/treeadd.dir/src/par-alloc.c.o  -o treeadd -lm 

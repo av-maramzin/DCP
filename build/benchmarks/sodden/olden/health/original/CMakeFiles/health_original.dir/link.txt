@@ -1,1 +1,1 @@
-/usr/bin/gcc -Wall -pg -g -g  -rdynamic CMakeFiles/health_original.dir/src/args.c.o CMakeFiles/health_original.dir/src/health.c.o CMakeFiles/health_original.dir/src/list.c.o CMakeFiles/health_original.dir/src/poisson.c.o  -o health_original -lm 
+/usr/bin/gcc -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/health_original.dir/src/args.c.o CMakeFiles/health_original.dir/src/health.c.o CMakeFiles/health_original.dir/src/list.c.o CMakeFiles/health_original.dir/src/poisson.c.o  -o health_original -lm 
