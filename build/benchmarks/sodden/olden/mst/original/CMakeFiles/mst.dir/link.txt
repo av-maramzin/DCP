@@ -1,1 +1,1 @@
-/usr/bin/gcc -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/mst.dir/src/args.c.o CMakeFiles/mst.dir/src/hash.c.o CMakeFiles/mst.dir/src/main.c.o CMakeFiles/mst.dir/src/makegraph.c.o  -o mst -lm 
+/usr/bin/gcc -O3 -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/mst.dir/src/args.c.o CMakeFiles/mst.dir/src/hash.c.o CMakeFiles/mst.dir/src/main.c.o CMakeFiles/mst.dir/src/makegraph.c.o  -o mst -lm 

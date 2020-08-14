@@ -1,1 +1,1 @@
-/usr/bin/g++  -Wall -fopenmp -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/perimeter_abstract.dir/src/main.cpp.o CMakeFiles/perimeter_abstract.dir/src/args.cpp.o CMakeFiles/perimeter_abstract.dir/src/maketree.cpp.o  -o perimeter_abstract -lm 
+/usr/bin/g++  -Wall -O3 -fopenmp -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/perimeter_abstract.dir/src/main.cpp.o CMakeFiles/perimeter_abstract.dir/src/args.cpp.o CMakeFiles/perimeter_abstract.dir/src/maketree.cpp.o  -o perimeter_abstract -lm 

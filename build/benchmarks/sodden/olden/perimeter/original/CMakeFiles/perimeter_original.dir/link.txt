@@ -1,1 +1,1 @@
-/usr/bin/gcc -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/perimeter_original.dir/src/args.c.o CMakeFiles/perimeter_original.dir/src/main.c.o CMakeFiles/perimeter_original.dir/src/maketree.c.o  -o perimeter_original -lm 
+/usr/bin/gcc -O3 -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/perimeter_original.dir/src/args.c.o CMakeFiles/perimeter_original.dir/src/main.c.o CMakeFiles/perimeter_original.dir/src/maketree.c.o  -o perimeter_original -lm 
