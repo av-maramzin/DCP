@@ -1,1 +1,1 @@
-/usr/bin/gcc -O3 -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/power_abstract.dir/src/build.cpp.o CMakeFiles/power_abstract.dir/src/compute.cpp.o CMakeFiles/power_abstract.dir/src/main.cpp.o  -o power_abstract -lm -lstdc++ -lm -lgomp -lpthread 
+/usr/bin/gcc -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/power_abstract.dir/src/build.cpp.o CMakeFiles/power_abstract.dir/src/compute.cpp.o CMakeFiles/power_abstract.dir/src/main.cpp.o  -o power_abstract -lm -lstdc++ -lm -lgomp -lpthread 

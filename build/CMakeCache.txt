@@ -39,7 +39,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
 //Flags used by the compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-Wall -O3 -fopenmp -std=c++11
+CMAKE_CXX_FLAGS:STRING=-Wall -fopenmp -std=c++11
 
 //Flags used by the compiler during debug builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -66,7 +66,7 @@ CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
 //Flags used by the compiler during all build types.
-CMAKE_C_FLAGS:STRING=-O3 -Wall
+CMAKE_C_FLAGS:STRING=-Wall
 
 //Flags used by the compiler during debug builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g

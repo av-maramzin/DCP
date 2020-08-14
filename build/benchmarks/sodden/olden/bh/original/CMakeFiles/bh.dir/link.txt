@@ -1,1 +1,1 @@
-/usr/bin/gcc -O3 -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/bh.dir/src/args.c.o CMakeFiles/bh.dir/src/util.c.o CMakeFiles/bh.dir/src/newbh.c.o CMakeFiles/bh.dir/src/walksub.c.o  -o bh -lm 
+/usr/bin/gcc -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/bh.dir/src/args.c.o CMakeFiles/bh.dir/src/util.c.o CMakeFiles/bh.dir/src/newbh.c.o CMakeFiles/bh.dir/src/walksub.c.o  -o bh -lm 
