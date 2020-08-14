@@ -7,7 +7,17 @@ declare -a DEPTHS=("5"
 
 declare -a RUNS=("15"
                  "20"
-                 "25")
+                 "25"
+                 "30"
+                 "50"
+                 "75"
+                 "100"
+                 "125"
+                 "150"
+                 "175"
+                 "200"
+                 "225"
+                 "250")
 
 # write file header
 echo >> run.out
