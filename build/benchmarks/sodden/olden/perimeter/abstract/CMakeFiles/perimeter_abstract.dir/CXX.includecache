@@ -11,6 +11,8 @@ vector
 -
 memory
 -
+cmath
+-
 iostream
 -
 omp.h
