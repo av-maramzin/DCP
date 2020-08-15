@@ -37,7 +37,7 @@ for ((k=0;k<${#DEPTHS[@]};++k)); do
 
         for ((j=0;j<3;++j)); do
             echo "=> ${RUNS[i]}#${j}"
-            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/original/treeadd_original ${DEPTHS[k]} ${RUNS[i]} 4
+            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/original/treeadd ${DEPTHS[k]} 1 ${RUNS[i]}
             cat tmp.out | tr -d '\n' >>  run.out
             echo -n ":" >>  run.out
         done
@@ -56,7 +56,7 @@ for ((k=0;k<${#DEPTHS[@]};++k)); do
 
         for ((j=0;j<3;++j)); do
             echo "=> ${RUNS[i]}#${j}"
-            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/abstract/treeadd_abstract ${DEPTHS[k]} ${RUNS[i]} 4 0 0
+            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/abstract/treeadd_abstract ${DEPTHS[k]} 1 ${RUNS[i]} 0 0
             cat tmp.out | tr -d '\n' >>  run.out
             echo -n ":" >>  run.out
         done
@@ -75,7 +75,7 @@ for ((k=0;k<${#DEPTHS[@]};++k)); do
 
         for ((j=0;j<3;++j)); do
             echo "=> ${RUNS[i]}#${j}"
-            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/abstract/treeadd_abstract ${DEPTHS[k]} ${RUNS[i]} 4 1 0
+            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/abstract/treeadd_abstract ${DEPTHS[k]} 1 ${RUNS[i]} 1 0
             cat tmp.out | tr -d '\n' >>  run.out
             echo -n ":" >>  run.out
         done
@@ -94,7 +94,7 @@ for ((k=0;k<${#DEPTHS[@]};++k)); do
 
         for ((j=0;j<3;++j)); do
             echo "=> ${RUNS[i]}#${j}"
-            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/abstract/treeadd_abstract ${DEPTHS[k]} ${RUNS[i]} 4 0 1
+            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/abstract/treeadd_abstract ${DEPTHS[k]} 1 ${RUNS[i]} 0 1
             cat tmp.out | tr -d '\n' >>  run.out
             echo -n ":" >>  run.out
         done
@@ -113,7 +113,7 @@ for ((k=0;k<${#DEPTHS[@]};++k)); do
 
         for ((j=0;j<3;++j)); do
             echo "=> ${RUNS[i]}#${j}"
-            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/abstract/treeadd_abstract ${DEPTHS[k]} ${RUNS[i]} 4 1 1
+            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/abstract/treeadd_abstract ${DEPTHS[k]} 1 ${RUNS[i]} 1 1
             cat tmp.out | tr -d '\n' >>  run.out
             echo -n ":" >>  run.out
         done
