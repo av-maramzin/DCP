@@ -37,7 +37,7 @@ for ((k=0;k<${#DEPTHS[@]};++k)); do
 
         for ((j=0;j<3;++j)); do
             echo "=> ${RUNS[i]}#${j}"
-            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/original/treeadd_original ${DEPTHS[k]} ${RUNS[i]} 4
+            /usr/bin/time -f "%e:%U:%S" -o tmp.out ./build/benchmarks/sodden/olden/treeadd/original/treeadd ${DEPTHS[k]} ${RUNS[i]} 4
             cat tmp.out | tr -d '\n' >>  run.out
             echo -n ":" >>  run.out
         done
