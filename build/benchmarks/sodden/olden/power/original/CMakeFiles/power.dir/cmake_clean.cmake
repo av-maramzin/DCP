@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/power.dir/src/args.c.o"
   "CMakeFiles/power.dir/src/build.c.o"
   "CMakeFiles/power.dir/src/compute.c.o"
   "CMakeFiles/power.dir/src/main.c.o"

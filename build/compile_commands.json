@@ -181,6 +181,11 @@
 },
 {
   "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original",
+  "command": "/usr/bin/gcc -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src  -Wall -O3 -DNDEBUG   -o CMakeFiles/power.dir/src/args.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/args.c",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/args.c"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original",
   "command": "/usr/bin/gcc -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src  -Wall -O3 -DNDEBUG   -o CMakeFiles/power.dir/src/build.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/build.c",
   "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/build.c"
 },
@@ -193,6 +198,11 @@
   "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original",
   "command": "/usr/bin/gcc -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src  -Wall -O3 -DNDEBUG   -o CMakeFiles/power.dir/src/main.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/main.c",
   "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/main.c"
+},
+{
+  "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract",
+  "command": "/usr/bin/g++  -DTORONTO -I/home/aleksandr/Work/DCP/abstract/include -I/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract -I/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src  -Wall -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/power_abstract.dir/src/args.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/args.cpp",
+  "file": "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/args.cpp"
 },
 {
   "directory": "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract",

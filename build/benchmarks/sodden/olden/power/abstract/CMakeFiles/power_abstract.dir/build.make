@@ -60,9 +60,33 @@ include benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/pro
 # Include the compile flags for this target's objects.
 include benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/flags.make
 
+benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/flags.make
+benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o: ../benchmarks/sodden/olden/power/abstract/src/args.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o"
+	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/power_abstract.dir/src/args.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/args.cpp
+
+benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/power_abstract.dir/src/args.cpp.i"
+	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/args.cpp > CMakeFiles/power_abstract.dir/src/args.cpp.i
+
+benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/power_abstract.dir/src/args.cpp.s"
+	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/args.cpp -o CMakeFiles/power_abstract.dir/src/args.cpp.s
+
+benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o.requires:
+
+.PHONY : benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o.requires
+
+benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o.provides: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o.requires
+	$(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o.provides.build
+.PHONY : benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o.provides
+
+benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o.provides.build: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o
+
+
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/build.cpp.o: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/flags.make
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/build.cpp.o: ../benchmarks/sodden/olden/power/abstract/src/build.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/build.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/build.cpp.o"
 	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/power_abstract.dir/src/build.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/build.cpp
 
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/build.cpp.i: cmake_force
@@ -86,7 +110,7 @@ benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/build.c
 
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/compute.cpp.o: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/flags.make
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/compute.cpp.o: ../benchmarks/sodden/olden/power/abstract/src/compute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/compute.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/compute.cpp.o"
 	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/power_abstract.dir/src/compute.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/compute.cpp
 
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/compute.cpp.i: cmake_force
@@ -110,7 +134,7 @@ benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/compute
 
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/main.cpp.o: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/flags.make
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/main.cpp.o: ../benchmarks/sodden/olden/power/abstract/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/main.cpp.o"
 	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/power_abstract.dir/src/main.cpp.o -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/main.cpp
 
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/main.cpp.i: cmake_force
@@ -134,6 +158,7 @@ benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/main.cp
 
 # Object files for target power_abstract
 power_abstract_OBJECTS = \
+"CMakeFiles/power_abstract.dir/src/args.cpp.o" \
 "CMakeFiles/power_abstract.dir/src/build.cpp.o" \
 "CMakeFiles/power_abstract.dir/src/compute.cpp.o" \
 "CMakeFiles/power_abstract.dir/src/main.cpp.o"
@@ -141,12 +166,13 @@ power_abstract_OBJECTS = \
 # External object files for target power_abstract
 power_abstract_EXTERNAL_OBJECTS =
 
+benchmarks/sodden/olden/power/abstract/power_abstract: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o
 benchmarks/sodden/olden/power/abstract/power_abstract: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/build.cpp.o
 benchmarks/sodden/olden/power/abstract/power_abstract: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/compute.cpp.o
 benchmarks/sodden/olden/power/abstract/power_abstract: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/main.cpp.o
 benchmarks/sodden/olden/power/abstract/power_abstract: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make
 benchmarks/sodden/olden/power/abstract/power_abstract: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable power_abstract"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable power_abstract"
 	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/abstract && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/power_abstract.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +180,7 @@ benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build: benc
 
 .PHONY : benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build
 
+benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/requires: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o.requires
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/requires: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/build.cpp.o.requires
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/requires: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/compute.cpp.o.requires
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/requires: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/main.cpp.o.requires

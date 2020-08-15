@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/args.c" "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o"
   "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/build.c" "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.o"
   "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/compute.c" "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.o"
   "/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/main.c" "/home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.o"

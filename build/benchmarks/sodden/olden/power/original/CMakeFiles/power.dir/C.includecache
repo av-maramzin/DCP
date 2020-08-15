@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/args.c
+stdlib.h
+-
+
 /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/build.c
 power.h
 /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/power.h

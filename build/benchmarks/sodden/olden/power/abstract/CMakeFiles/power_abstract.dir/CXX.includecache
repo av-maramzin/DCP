@@ -25,10 +25,16 @@ vector
 -
 memory
 -
+omp.h
+-
 Reduce.tpp
 ../abstract/include/Reduce.tpp
 
 ../abstract/include/Reduce.tpp
+
+/home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/args.cpp
+cstdlib
+-
 
 /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/abstract/src/build.cpp
 power.h

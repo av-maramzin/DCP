@@ -174,6 +174,33 @@ power_abstract/fast:
 	cd /home/aleksandr/Work/DCP/build && $(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build
 .PHONY : power_abstract/fast
 
+src/args.o: src/args.cpp.o
+
+.PHONY : src/args.o
+
+# target to build an object file
+src/args.cpp.o:
+	cd /home/aleksandr/Work/DCP/build && $(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.o
+.PHONY : src/args.cpp.o
+
+src/args.i: src/args.cpp.i
+
+.PHONY : src/args.i
+
+# target to preprocess a source file
+src/args.cpp.i:
+	cd /home/aleksandr/Work/DCP/build && $(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.i
+.PHONY : src/args.cpp.i
+
+src/args.s: src/args.cpp.s
+
+.PHONY : src/args.s
+
+# target to generate assembly for a file
+src/args.cpp.s:
+	cd /home/aleksandr/Work/DCP/build && $(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/src/args.cpp.s
+.PHONY : src/args.cpp.s
+
 src/build.o: src/build.cpp.o
 
 .PHONY : src/build.o
@@ -268,6 +295,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... src/args.o"
+	@echo "... src/args.i"
+	@echo "... src/args.s"
 	@echo "... src/build.o"
 	@echo "... src/build.i"
 	@echo "... src/build.s"

@@ -60,9 +60,33 @@ include benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/progress.mak
 # Include the compile flags for this target's objects.
 include benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/flags.make
 
+benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/flags.make
+benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o: ../benchmarks/sodden/olden/power/original/src/args.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o"
+	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/power.dir/src/args.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/args.c
+
+benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/power.dir/src/args.c.i"
+	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/args.c > CMakeFiles/power.dir/src/args.c.i
+
+benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/power.dir/src/args.c.s"
+	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/args.c -o CMakeFiles/power.dir/src/args.c.s
+
+benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o.requires:
+
+.PHONY : benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o.requires
+
+benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o.provides: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o.requires
+	$(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o.provides.build
+.PHONY : benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o.provides
+
+benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o.provides.build: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o
+
+
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.o: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/flags.make
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.o: ../benchmarks/sodden/olden/power/original/src/build.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.o"
 	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/power.dir/src/build.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/build.c
 
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.i: cmake_force
@@ -86,7 +110,7 @@ benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.o.provid
 
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.o: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/flags.make
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.o: ../benchmarks/sodden/olden/power/original/src/compute.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.o"
 	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/power.dir/src/compute.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/compute.c
 
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.i: cmake_force
@@ -110,7 +134,7 @@ benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.o.prov
 
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.o: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/flags.make
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.o: ../benchmarks/sodden/olden/power/original/src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.o"
 	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/power.dir/src/main.c.o   -c /home/aleksandr/Work/DCP/benchmarks/sodden/olden/power/original/src/main.c
 
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.i: cmake_force
@@ -134,6 +158,7 @@ benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.o.provide
 
 # Object files for target power
 power_OBJECTS = \
+"CMakeFiles/power.dir/src/args.c.o" \
 "CMakeFiles/power.dir/src/build.c.o" \
 "CMakeFiles/power.dir/src/compute.c.o" \
 "CMakeFiles/power.dir/src/main.c.o"
@@ -141,12 +166,13 @@ power_OBJECTS = \
 # External object files for target power
 power_EXTERNAL_OBJECTS =
 
+benchmarks/sodden/olden/power/original/power: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o
 benchmarks/sodden/olden/power/original/power: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.o
 benchmarks/sodden/olden/power/original/power: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.o
 benchmarks/sodden/olden/power/original/power: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.o
 benchmarks/sodden/olden/power/original/power: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make
 benchmarks/sodden/olden/power/original/power: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable power"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable power"
 	cd /home/aleksandr/Work/DCP/build/benchmarks/sodden/olden/power/original && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/power.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +180,7 @@ benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build: benchmarks/so
 
 .PHONY : benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build
 
+benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/requires: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o.requires
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/requires: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/build.c.o.requires
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/requires: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/compute.c.o.requires
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/requires: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/main.c.o.requires

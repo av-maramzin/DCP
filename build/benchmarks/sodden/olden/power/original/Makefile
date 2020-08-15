@@ -174,6 +174,33 @@ power/fast:
 	cd /home/aleksandr/Work/DCP/build && $(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build
 .PHONY : power/fast
 
+src/args.o: src/args.c.o
+
+.PHONY : src/args.o
+
+# target to build an object file
+src/args.c.o:
+	cd /home/aleksandr/Work/DCP/build && $(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.o
+.PHONY : src/args.c.o
+
+src/args.i: src/args.c.i
+
+.PHONY : src/args.i
+
+# target to preprocess a source file
+src/args.c.i:
+	cd /home/aleksandr/Work/DCP/build && $(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.i
+.PHONY : src/args.c.i
+
+src/args.s: src/args.c.s
+
+.PHONY : src/args.s
+
+# target to generate assembly for a file
+src/args.c.s:
+	cd /home/aleksandr/Work/DCP/build && $(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/src/args.c.s
+.PHONY : src/args.c.s
+
 src/build.o: src/build.c.o
 
 .PHONY : src/build.o
@@ -268,6 +295,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... src/args.o"
+	@echo "... src/args.i"
+	@echo "... src/args.s"
 	@echo "... src/build.o"
 	@echo "... src/build.i"
 	@echo "... src/build.s"

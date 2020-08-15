@@ -898,7 +898,7 @@ benchmarks/sodden/olden/power/original/preinstall:
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build.make benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=48,49,50,51 "Built target power"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=48,49,50,51,52 "Built target power"
 .PHONY : benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/all
 
 # Include target in all.
@@ -908,7 +908,7 @@ all: benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/all
 
 # Build rule for subdir invocation for target.
 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 0
 .PHONY : benchmarks/sodden/olden/power/original/CMakeFiles/power.dir/rule
@@ -953,7 +953,7 @@ benchmarks/sodden/olden/power/abstract/preinstall:
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build.make benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=52,53,54,55 "Built target power_abstract"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=53,54,55,56,57 "Built target power_abstract"
 .PHONY : benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/all
 
 # Include target in all.
@@ -963,7 +963,7 @@ all: benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/all
 
 # Build rule for subdir invocation for target.
 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksandr/Work/DCP/build/CMakeFiles 0
 .PHONY : benchmarks/sodden/olden/power/abstract/CMakeFiles/power_abstract.dir/rule
@@ -1032,7 +1032,7 @@ benchmarks/sodden/olden/treeadd/original/preinstall:
 benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/build.make benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/build.make benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=56,57,58,59 "Built target treeadd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=58,59,60,61 "Built target treeadd"
 .PHONY : benchmarks/sodden/olden/treeadd/original/CMakeFiles/treeadd.dir/all
 
 # Include target in all.
@@ -1087,7 +1087,7 @@ benchmarks/sodden/olden/treeadd/abstract/preinstall:
 benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/build.make benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/build.make benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=60,61,62 "Built target treeadd_abstract"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=62,63,64 "Built target treeadd_abstract"
 .PHONY : benchmarks/sodden/olden/treeadd/abstract/CMakeFiles/treeadd_abstract.dir/all
 
 # Include target in all.
@@ -1142,7 +1142,7 @@ benchmarks/sodden/olden/treeadd/abstract_old/preinstall:
 benchmarks/sodden/olden/treeadd/abstract_old/CMakeFiles/treeadd_abstract_old.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/abstract_old/CMakeFiles/treeadd_abstract_old.dir/build.make benchmarks/sodden/olden/treeadd/abstract_old/CMakeFiles/treeadd_abstract_old.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/treeadd/abstract_old/CMakeFiles/treeadd_abstract_old.dir/build.make benchmarks/sodden/olden/treeadd/abstract_old/CMakeFiles/treeadd_abstract_old.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=63,64,65,66 "Built target treeadd_abstract_old"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=65,66,67,68 "Built target treeadd_abstract_old"
 .PHONY : benchmarks/sodden/olden/treeadd/abstract_old/CMakeFiles/treeadd_abstract_old.dir/all
 
 # Include target in all.
@@ -1215,7 +1215,7 @@ benchmarks/sodden/olden/tsp/original/preinstall:
 benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/build.make benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/build.make benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=67,68,69,70,71 "Built target tsp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=69,70,71,72,73 "Built target tsp"
 .PHONY : benchmarks/sodden/olden/tsp/original/CMakeFiles/tsp.dir/all
 
 # Include target in all.
@@ -1288,7 +1288,7 @@ benchmarks/sodden/olden/voronoi/original/preinstall:
 benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/all:
 	$(MAKE) -f benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/build.make benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/depend
 	$(MAKE) -f benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/build.make benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=72,73,74,75,76 "Built target voronoi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aleksandr/Work/DCP/build/CMakeFiles --progress-num=74,75,76,77,78 "Built target voronoi"
 .PHONY : benchmarks/sodden/olden/voronoi/original/CMakeFiles/voronoi.dir/all
 
 # Include target in all.
